@@ -1,9 +1,11 @@
+import Dashboard from "./features/Dashboard/Dashboard"
+
 function App() {
 
   return (
-    <>
-      Boardify App
-    </>
+    <div className="text-3xl font-bold text-blue-500">
+      <Dashboard />
+    </div>
   )
 }
 
